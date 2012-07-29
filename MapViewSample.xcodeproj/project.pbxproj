@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88BF480515C4085400D0C3DC /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BF480415C4085400D0C3DC /* MyAnnotation.m */; };
+		88BF480815C40BE000D0C3DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BF480715C40BE000D0C3DC /* CoreLocation.framework */; };
 		88EBC12915C3EA8F00BD7BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBC12815C3EA8F00BD7BD2 /* UIKit.framework */; };
 		88EBC12B15C3EA8F00BD7BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBC12A15C3EA8F00BD7BD2 /* Foundation.framework */; };
 		88EBC12D15C3EA8F00BD7BD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBC12C15C3EA8F00BD7BD2 /* CoreGraphics.framework */; };
@@ -16,23 +18,28 @@
 		88EBC13C15C3EA8F00BD7BD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EBC13B15C3EA8F00BD7BD2 /* ViewController.m */; };
 		88EBC13F15C3EA9000BD7BD2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EBC13D15C3EA9000BD7BD2 /* ViewController_iPhone.xib */; };
 		88EBC14215C3EA9000BD7BD2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EBC14015C3EA9000BD7BD2 /* ViewController_iPad.xib */; };
+		88EBC14915C3EAE500BD7BD2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EBC14815C3EAE500BD7BD2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88BF480315C4085400D0C3DC /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		88BF480415C4085400D0C3DC /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		88BF480715C40BE000D0C3DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		88EBC12415C3EA8F00BD7BD2 /* MapViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EBC12815C3EA8F00BD7BD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88EBC12A15C3EA8F00BD7BD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88EBC12C15C3EA8F00BD7BD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		88EBC13015C3EA8F00BD7BD2 /* MapViewSample-Info.plist */ = {isa = PBXFileReference; path = "MapViewSample-Info.plist"; sourceTree = "<group>"; };
+		88EBC13015C3EA8F00BD7BD2 /* MapViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewSample-Info.plist"; sourceTree = "<group>"; };
 		88EBC13215C3EA8F00BD7BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88EBC13415C3EA8F00BD7BD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88EBC13615C3EA8F00BD7BD2 /* MapViewSample-Prefix.pch */ = {isa = PBXFileReference; path = "MapViewSample-Prefix.pch"; sourceTree = "<group>"; };
-		88EBC13715C3EA8F00BD7BD2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		88EBC13615C3EA8F00BD7BD2 /* MapViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		88EBC13715C3EA8F00BD7BD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88EBC13815C3EA8F00BD7BD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88EBC13A15C3EA8F00BD7BD2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		88EBC13A15C3EA8F00BD7BD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		88EBC13B15C3EA8F00BD7BD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88EBC13E15C3EA9000BD7BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		88EBC14115C3EA9000BD7BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		88EBC14815C3EAE500BD7BD2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BF480815C40BE000D0C3DC /* CoreLocation.framework in Frameworks */,
+				88EBC14915C3EAE500BD7BD2 /* MapKit.framework in Frameworks */,
 				88EBC12915C3EA8F00BD7BD2 /* UIKit.framework in Frameworks */,
 				88EBC12B15C3EA8F00BD7BD2 /* Foundation.framework in Frameworks */,
 				88EBC12D15C3EA8F00BD7BD2 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +78,8 @@
 		88EBC12715C3EA8F00BD7BD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88BF480715C40BE000D0C3DC /* CoreLocation.framework */,
+				88EBC14815C3EAE500BD7BD2 /* MapKit.framework */,
 				88EBC12815C3EA8F00BD7BD2 /* UIKit.framework */,
 				88EBC12A15C3EA8F00BD7BD2 /* Foundation.framework */,
 				88EBC12C15C3EA8F00BD7BD2 /* CoreGraphics.framework */,
@@ -81,10 +92,10 @@
 			children = (
 				88EBC13715C3EA8F00BD7BD2 /* AppDelegate.h */,
 				88EBC13815C3EA8F00BD7BD2 /* AppDelegate.m */,
+				88BF480315C4085400D0C3DC /* MyAnnotation.h */,
+				88BF480415C4085400D0C3DC /* MyAnnotation.m */,
 				88EBC13A15C3EA8F00BD7BD2 /* ViewController.h */,
 				88EBC13B15C3EA8F00BD7BD2 /* ViewController.m */,
-				88EBC13D15C3EA9000BD7BD2 /* ViewController_iPhone.xib */,
-				88EBC14015C3EA9000BD7BD2 /* ViewController_iPad.xib */,
 				88EBC12F15C3EA8F00BD7BD2 /* Supporting Files */,
 			);
 			path = MapViewSample;
@@ -93,6 +104,8 @@
 		88EBC12F15C3EA8F00BD7BD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88EBC14015C3EA9000BD7BD2 /* ViewController_iPad.xib */,
+				88EBC13D15C3EA9000BD7BD2 /* ViewController_iPhone.xib */,
 				88EBC13015C3EA8F00BD7BD2 /* MapViewSample-Info.plist */,
 				88EBC13115C3EA8F00BD7BD2 /* InfoPlist.strings */,
 				88EBC13415C3EA8F00BD7BD2 /* main.m */,
@@ -167,6 +180,7 @@
 				88EBC13515C3EA8F00BD7BD2 /* main.m in Sources */,
 				88EBC13915C3EA8F00BD7BD2 /* AppDelegate.m in Sources */,
 				88EBC13C15C3EA8F00BD7BD2 /* ViewController.m in Sources */,
+				88BF480515C4085400D0C3DC /* MyAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +302,7 @@
 				88EBC14715C3EA9000BD7BD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
